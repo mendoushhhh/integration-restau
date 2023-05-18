@@ -1,0 +1,90 @@
+footer {
+    background: url(/assets/img/bg-footer.jpg) center/cover;
+    display: grid;
+    grid-template-columns: (50% 50%);
+    align-items: center;
+    
+    
+   
+
+    .shmejt-kant {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 65px;
+        
+       div {
+        width: 80%;
+
+
+      h3 {
+            font-family: $font1;
+            color:  $brun1;
+            font-size: 3rem;
+            letter-spacing: 2px;
+            font-weight: 200;
+            text-align: left;
+            
+            
+        }
+        p {
+            font-family: $font3;
+            color: $grey2;
+            line-height: 30px;
+            margin: 15px 0;
+            text-align: left;
+        }
+        
+     }
+        
+        
+    }
+
+    .right-kantor {
+        padding: 65px;
+        width: 70%;
+        text-align: left;
+        div {
+            text-align: left;
+        }
+        h3 {
+            font-family: $font3;
+            color: $white1;
+            text-align: left;
+            letter-spacing: 2px;
+        }
+        input {
+            font-size: 20px;
+            background: none;
+            border: 1px solid grey;
+            padding: 5px 20px;
+            margin-top: 10px;
+            text-align: left;
+            opacity: 0.3;
+            font-size: 0.9rem;
+            color: rgb(209, 199, 199);
+            letter-spacing: 2px;
+            font-family: $font3;
+        
+        }
+        
+    }.left-kantor {
+            display: flex;
+            padding: 10px 60px;
+            ul {
+                display: flex;
+                justify-content: space-around;
+                margin-left: 20px;
+                
+                li {
+                    width: 50px;
+                     i{
+                        color:$grey2;
+
+                     }
+
+                }
+            }
+            
+        }
+}

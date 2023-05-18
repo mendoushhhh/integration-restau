@@ -1,0 +1,98 @@
+   
+   
+header {
+    background: url(/assets/img/bg-slider-06.jpg) center/cover;
+    height: 100vh;
+    nav {
+
+    width: 70%;
+    margin: 0 auto 30px;
+    height: 20vh;
+    div {
+        display: flex;
+        justify-content: space-between;
+        color: white;
+        h3 {
+            color:  $white1;
+            font-family: "allura";
+            font-size: 2.8rem;
+            
+        }
+        ul {
+            display: flex;
+            align-items: center;
+            color: $grey2;
+            font-size: 0.7rem;
+            font-family: "poppins";
+            text-transform: uppercase;
+            font-weight: 100;
+
+            a {
+                color: $grey2;
+                text-decoration: none;
+                 li {
+             width: 110px;
+            cursor: pointer;
+             
+            }
+            
+            }
+           
+            
+          
+        }
+        
+            #icônes {
+
+                a {
+                    color: $white1; 
+                   
+               
+                }
+            li { 
+                        
+                            width: 30px;
+
+                            }
+                        
+
+            }
+        
+
+    }
+}
+                .header-content {
+                    margin-top: 100px;
+                    span {
+                        color:  $brun1;
+                        font-family:"allura" ;
+                        font-size: 2.5rem;
+                        margin: 0 auto;
+                    }
+                     h1 {
+                        font-size: 2.7rem;
+                        text-transform: uppercase;
+                        color: $white1;
+                        font-weight: 700;
+                         letter-spacing: 7px;
+                         font-family: $font2;
+                        margin: -25px auto 2px;
+                     }
+                    img {
+                        height: 20px;
+                        margin: 30px auto;
+                    }
+                    p {
+                        text-transform: uppercase;
+                        
+                        
+font-size: 0.8rem;
+                        letter-spacing: 6px;
+                        font-weight: 100;
+                        font-family: "poppins";
+                        color:  $grey1;
+                    }
+                }
+}
+
+

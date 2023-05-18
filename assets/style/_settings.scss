@@ -1,0 +1,74 @@
+@font-face {
+    font-family: "allura";
+    src: url(../fonts/Allura-Regular.ttf);
+  }
+  @font-face {
+    font-family: "poppins";
+    src: url(../fonts/Poppins-Medium.ttf);
+
+  }
+  @font-face {
+    font-family: "roboto" ;
+    src: url(../fonts/Roboto-Light.ttf);
+  }
+  
+  $font1: allura, sans-serif ;
+  $font2: poppins, sans-serif;
+  $font3: roboto, serif;
+  $black1: rgb(23, 22, 22);
+  $white1: rgb(243, 243, 243);
+  $grey1: rgb(225, 220, 220);
+  $grey2: rgb(190, 179, 179);
+  $brun1: rgb(173, 101, 70);
+
+
+
+  * {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+  }
+  html {
+    scroll-behavior: smooth;
+
+  }
+  li {
+    list-style: none;
+  }
+ 
+  body {
+    position: relative;
+    text-align: center;
+    // je met text align-center car je remarque que les éléments sont pour la plupart alignée centrer  après je modifierai si il le faut fi rectifierai
+    font-family:$font2;
+    // faudra-t-il mettre une max-width et margin 0 auto ? on verra
+    &:before {
+        content: "";
+        position: absolute;
+        height:100%;
+        width:100%;
+        top: 0;
+        left: 0;
+        background: black;
+        animation: animeBefore 1.5s ease forwards;
+        animation-delay: 0.15s;
+        
+        
+        @keyframes animeBefore {
+        to {
+            opacity:0;
+        }
+    }
+  }
+       
+    }
+
+@mixin title {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-family:$font2 ;
+}
+
+    
+    
+  

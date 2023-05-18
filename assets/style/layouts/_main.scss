@@ -1,0 +1,653 @@
+
+main {
+   background: rgb(53, 51, 51);
+    
+
+.section1 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    .content-left {
+        background: rgb(241, 241, 241);
+        div {
+            border: 1px dotted black;
+            margin: 30px;
+            padding: 30px;
+            span {
+                font-family: "allura";
+                font-size: 2rem;
+                color: $brun1;
+            }
+            h5 {
+                font-size: 1.2rem;
+                text-transform: uppercase;
+                margin: -10px auto;
+                font-weight: 600;
+                letter-spacing: 2px;
+            }
+            .fourchettes{
+                margin: 40px auto;
+                height:30px;
+               
+                
+            }
+            img {
+                border-radius: 60px;
+                margin-top: 60px;
+            }
+            p {
+                font-size: 1rem;
+                text-align: center;
+                font-weight: 100;
+                font-family: "roboto";
+            }
+            h6 {
+                font-size: 1.2rem;
+                font-weight: 200;
+            }
+            .chef-cook{
+                text-transform: uppercase;
+                color: $grey2;
+                font-family: "roboto";
+                font-weight: 500;
+                padding-bottom: 30px;
+                
+            }
+
+        }
+    }
+   .image-droite {
+            background:url(/assets/img/store-01.jpg)  center/cover;
+            height: 100%;
+            width: 100%;
+
+   }
+}
+
+.section2 {
+    background: rgb(53, 51, 51);
+    height: 1300px;
+   
+    
+
+    
+    
+
+    div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+            
+     span {
+        font-family: allura;
+        font-size: 1.8rem;
+        color:$brun1;
+        margin-top: 50px;
+        }
+        
+    .couverts {
+    height: 30px;
+    width: 30px;
+    margin:30px auto 20px;
+    }
+    }
+    ul {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+        li {
+            width: 10%;
+            cursor: pointer;
+            position: relative;
+            transition: 0.3s ease;
+            padding: 20px 0;
+            font-family: $font3;
+            font-weight: 500;
+           
+}
+li:first-child:before {
+    content: "";
+    width: 45%;
+    height: 1px;
+    position: absolute;
+    background: rgb(201, 196, 196);
+    transform: translateY(27px);
+  }
+  li:before {
+    content: "";
+    width: 30%;
+    height: 1px;
+    position: absolute;
+    background: rgb(201, 196, 196);
+    transform: translateY(27px);
+  }
+
+            a {
+                text-decoration: none;
+                color: whitesmoke;
+            }
+        }
+        
+    }
+   .div-orange {
+    background: rgb(192, 112, 69);
+    height: 5px;
+    width: 20px;
+    width: 50%;
+        margin: 0 auto 0;
+   }
+    .menu {
+        width: 50%;
+        margin: 0 auto 30px;
+        height: 100vh;
+        background: #f3f3f3;
+        .choice {
+            
+            display: grid;
+            grid-template-columns: 50% 50%;
+            margin:20px auto;
+            
+            
+        
+    padding: 10px 40px;
+            .côté-gauche {
+                display: flex;
+                flex-direction: row;
+                justify-content: normal;
+                border-bottom: 1px dotted black;
+    width: 90%;
+            
+                img {
+                    height: 80px;
+                    width: 80px;
+                    border-radius: 60px;
+                }
+                .nomination {
+                    text-align: left;
+                    display: flex;
+                    align-items: flex-start;
+                }
+                .direction {
+        margin-right: 50px;
+                }
+                .text-code {
+                    text-transform: uppercase;
+                    font-weight: 600;
+                    font-size: 0.8rem;
+                width: 80%;
+                display: flex;
+                align-items: flex-start;
+                }
+                p {
+                    text-transform: uppercase;
+                    font-family: $font3;
+                    font-size: 0.8rem;
+                    margin: 3px 20px;
+                    
+    
+                }
+                span {
+                    font-size: 1.2rem;
+                    font-family: $font3;
+                    margin-bottom: 40px;
+                    margin-left: 20px;
+                    margin-right: 10px;
+                   
+                }
+              
+            }
+            .côté-droit {
+            display: flex;
+            flex-direction: row;
+            border-bottom: 1px dotted black;
+            margin-left: 20px;
+    
+            img {
+                height: 80px;
+                width:80px;
+                border-radius: 60px;
+            }
+            .nomination {
+                text-align: left;
+            }
+            .text-code {
+                text-transform: uppercase;
+                font-family: $font3;
+                font-weight: 600;
+                font-size: 0.8rem;
+                width: 80%;
+                display: flex;
+                align-items: flex-start;
+                
+            }
+            p {
+                text-transform: uppercase;
+                font-family: $font3;
+                font-size: 0.8rem;
+                margin: 3px 20px;
+                
+
+            }
+            span {
+                font-size: 1.2rem;
+                font-family: $font3;
+                margin-bottom: 40px;
+                margin-left: 50px;
+               
+            }
+           
+
+        } 
+        
+        }
+        
+
+       
+    }
+
+
+    .section3 {
+        background: rgb(53, 51, 51);
+        height: 1300px;
+        width: 70%;
+        margin: 0 auto 30px;
+        height: 100vh;
+    
+        
+        
+        
+        .infos-plans{
+            
+            height: 75vh;
+            background: #f3f3f3;
+            display: flex;
+
+                        .left-side {
+                            background: black;
+                            
+                            padding: 60px 20px;
+                            div {
+                                border: 1px dotted white;
+                                padding: 25px;
+                                span {
+                                    font-family: $font1;
+                                    color: $brun1;
+                                    font-size: 2rem;
+                                    
+                                }
+                                h5 {
+                                    font-size: 1.2rem;
+                                    font-family: $font2;
+                                    color: #f3f3f3;
+                                    text-transform: uppercase;
+                                    margin-top: -12px;
+                                }
+                                 img {
+                                    margin: 40px auto;
+                                    height: 1.8rem;
+                                 }
+                                .semaine{
+                                    color:$brun1;
+                                    font-family:$font2;
+                                    font-size: 1rem;
+                                    text-transform: uppercase;
+                                    margin-bottom: 20px;
+                                    width: 100%;
+                                }
+                                p {
+                                    color: #f3f3f3;
+                                    font-family: $font3;
+                                    font-size: 1rem;
+                                    
+                                }
+                                .dinner {
+                                    margin-bottom: 20px;
+                                }
+                            }
+                            
+                        }
+                        .right-side {
+                            
+                       .ajustmentte {
+
+                            margin-top: 120px;
+                            display: flex;
+                            align-items: center;
+                            flex-direction: column; 
+                            justify-content: center;
+                            span {
+                        font-size: 50px;
+                        font-family: $font1;
+                        color: $brun1;
+                       }
+                       h6 {
+                        font-size: 2rem;
+                        text-transform: uppercase;
+                        margin-top: -15px;
+                       }
+                       img {
+                        margin: 25px 0;
+                       }
+                       }
+                       form {
+                    margin: 50px 50px 100px 80px;
+                        div {
+                             display: grid;
+                         grid-template-areas:
+                            "input1 input2 input3"
+                            "texta texta texta"
+                            ;
+                            gap: 20px;
+                            
+                            .selector {
+                                background: none;
+                                border: none;
+                                border-bottom: 1px solid rgb(210, 178, 178);
+                            }
+                            .selecting{
+                                background: none;
+                                border: none;
+                                border-bottom: 1px solid rgb(210, 178, 178);
+
+                            }
+                            .submit-container {
+                               
+
+                                
+                            }
+                            .btn {
+                                background: rgb(32, 31, 31);
+                                color: whitesmoke;
+                                padding: 15px 30px ;
+                                border-radius: 60px;
+                                text-transform: uppercase;
+                                letter-spacing: 3px;
+                                font-family: $font2;
+                                font-size: 1rem;
+                               margin-top: 30px;
+                               margin-left: 120px;
+                               
+                                
+                                
+                            }
+                            
+                           
+                        }
+                           
+
+                    }
+                      
+
+                           
+            
+        }
+    }
+   
+
+    }
+
+
+
+
+
+    .section4 {
+        max-width: 1100px;
+        margin: 30px auto;
+        
+        span {
+            font-family: $font1;
+            font-size: 2rem;
+            color: $brun1;
+
+            
+        }
+        p {
+            font-family: $font2;
+            font-size: 2rem;
+            color: whitesmoke;
+            text-transform: uppercase;
+            font-weight: 600;
+            letter-spacing: 2px;
+            margin-top: -30px;
+            background: rgb(48, 47, 47);
+            font-size: 0.8rem;
+            padding: 25px;
+            font-size: 2rem;
+            background: none;
+            
+        }
+        img {
+            margin: 10px auto;
+        }
+        .events {
+            display: grid;
+            grid-template-columns:(50% 50%);
+            margin-top: 30px;
+            
+            .left-border {
+                
+                .haute-partie {
+                    display: flex;
+                    max-width: 1000px;
+                    flex-direction: column;
+                    margin:auto 30px;
+
+                    div {
+                        display: flex;
+                        margin-bottom: 20px;
+                        width: 100%;
+                    }
+                    
+
+                    justify-content: center;
+                    .links {
+                        background: url(/assets/img/event-01.jpg) center/cover;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        padding: 90px;
+                
+                        .affichage {
+                            background: rgb(52, 50, 50);
+                            padding: 30px;
+                    
+                            font-size: 1rem;
+                        }
+                    }
+                    .rechts{
+                        background: whitesmoke;
+                        display: flex;
+                        align-items: center;
+                        text-align: left;
+                        
+                        width: 200px;
+                    
+                        h6 {
+                            color: rgb(55, 45, 45);
+                            font-family: $font3;
+                            font-size: 1rem;
+                        }
+                        p {
+                            color: $grey2;
+                            font-size: 0.8rem;
+                            font-family:$font3;
+                            margin: 20px 0;
+                            background:none;
+                            
+                        }
+                        a {
+                            text-decoration: none;
+                            text-transform: uppercase;
+                            letter-spacing: 1px;
+                            color: rgb(55, 45, 45);
+                        }
+                    }
+                    .basse-partie {
+                            .shmejt {
+                            background: url(/assets/img/event-03.jpg) center/cover;
+                            justify-content: center;
+                            align-items: center;
+                            display: flex;
+                    }    
+                    .rechter-padd {
+                        display: flex;
+                        flex-direction: column;
+                        background: whitesmoke;
+                        justify-content: center;
+                        width: 700px;
+                        height: 182px;
+                        text-align: left;
+                        padding: 20px;
+                        .shmejt {
+                        
+    
+                       
+                    } 
+                    h6 {
+                            font-size: 1.5rem;
+                            font-family: $font3;
+                            font-weight: 200;
+                        }
+                        p {
+                            color: $grey2;
+                            font-size: 0.8rem;
+                            margin: 15px 0;
+                            font-family: $font3;
+                            background: none;
+                        }
+                        a {
+                            text-decoration: none;
+                            text-transform: uppercase;
+                            letter-spacing: 1px;
+                            color: rgb(55, 45, 45);
+
+                        }
+                }
+
+                          
+                
+                }
+            }
+            .right-border {
+                background: url(/assets/img/event-03.jpg)  center/cover no-repeat;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width:400px;
+                height: 500px;
+                div {
+                    background: whitesmoke;
+                    margin: 10px 40px;
+                    display: flex;
+                    justify-content: center;
+                    flex-direction: column;
+                    height: 300px;
+                    
+                    div {
+                        background: black;
+                        color: white;
+                        margin-top: 0;
+                        width: 60px;
+                        margin: 0 auto;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        padding: 20px 40px;
+                    }
+                    h6 {
+                        font-size: 1.2rem;
+                        font-family:$font3;
+                        font-weight: 100;
+                        margin-top: 30px;
+                        letter-spacing: 2px;
+                    }
+                    a {
+                        text-transform: uppercase;
+                        text-decoration: none;
+                        margin-bottom: 50px;
+                        color: rgb(32, 30, 30);
+                        letter-spacing: 2px;
+                        font-size: 0.8rem;
+                    }
+                     p{
+                    
+                        font-size: 0.7rem;
+                        font-family: $font3;
+                        color:$grey2 ;
+                        margin-top: 20px;
+                        margin-bottom: 40px;
+                        letter-spacing: 2px;
+                     }
+                
+                    
+                }
+                
+            }
+        }
+
+    }
+
+}
+.texting-CEO {
+        
+    max-width: 900px;
+    margin: 60px auto;
+    background: rgb(218, 215, 215);
+    height: 300px;
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    position: relative;
+    justify-content: center;
+    display: inline-block;
+
+    img {
+        position: absolute;
+        top: -12%;
+        left: 45%;
+        border-radius: 60px;
+        height: 70px
+    }
+    div {
+        p {
+            line-height: 30px;
+            font-family: $font3;
+            font-weight: 600;
+            font-size: 1rem;
+            margin-top: 30px;
+            i {
+                font-size: 0.9rem;
+            }
+        }
+        h6 {
+            margin: 30px auto;
+            font-size: 1.2rem;
+            font-family: $font3;
+            font-weight: 570;
+
+        }
+        .popo{
+            color: rgb(105, 100, 100);
+            font-family: $font3;
+            margin: -20px;
+            font-size: 0.9rem;
+        }
+    }
+
+    .import-img {
+        background: url(/assets/img/gmap.jpg);
+        height: 100px;
+        width: 200px;
+    }
+
+    
+  
+}
+
+
+
+    
+    }
+
+
+
