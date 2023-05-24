@@ -42,6 +42,8 @@
     // je met text align-center car je remarque que les éléments sont pour la plupart alignée centrer  après je modifierai si il le faut fi rectifierai
     font-family:$font2;
     // faudra-t-il mettre une max-width et margin 0 auto ? on verra
+    background: rgb(53, 51, 51);
+
     &:before {
         content: "";
         position: absolute;
